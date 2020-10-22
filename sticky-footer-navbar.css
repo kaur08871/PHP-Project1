@@ -1,0 +1,79 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+    background-image: url(images/rose-2101475_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color:palevioletred;
+    text-align: center;
+
+  
+}
+
+input{
+    color: black !important;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 10px 15px 0;
+ 
+}
+.container .text-muted {
+  margin: 10px 0;
+}
+
+.footer > .container {
+  padding-right: 5px;
+  padding-left: 5px;
+    
+}
+.navbar_main{
+ background-color:palevioletred;
+}
+code {
+  font-size: 80%;
+}
+
+#btn1{
+    
+    align-items: center;
+    color: black;
+    background-color: palevioletred;
+    align-content: center;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    
+    /*margin: 100px 100px 100px 100px ;
+    */
+    
+    
+}
+a{
+    color: aliceblue;
+}
+
+#checkout{
+    background-color: forestgreen;
+}
